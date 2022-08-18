@@ -12,20 +12,20 @@ export default class Services extends Component {
       services: [
         {
           id: 'service1',
-          icon: 'mdi-google',
-          title: "Google Ads",
+          icon: 'mdi-calendar-outline',
+          title: "Monthly VAT Filing",
           description: "Quisque rhoncus lectus ut lectus hendrerit at convallis lorem ornare pellentesque lobortis hendrerit mattis."
         },
         {
           id: 'service2',
-          icon: 'mdi-instagram',
-          title: "Instagram Ads",
+          icon: 'mdi-file-document',
+          title: "Accounting",
           description: 'Vestibulum eu tortor artett tortor rhoncus porta quis on metus morbi comodo nisi vitae neque aliquam aliquam.'
         },
         {
           id: 'service3',
-          icon: 'mdi-youtube',
-          title: "Youtube Ads",
+          icon: 'mdi-clock',
+          title: "Company Yearly Update",
           description: 'Aliquam dictum mollis sem sed hendrerit tempus sed class aptent taciti sociosqu litora conubia himenaeos.'
         },
       ],
@@ -33,24 +33,24 @@ export default class Services extends Component {
         {
           id: '1',
           extraclass: '',
-          start: 25,
-          end: 49,
+          start: 15,
+          end: 20,
           title: "Employees",
           description: 'Aliquam egestas vehicula sapien cibus sit amet rutrum dolor molestie.'
         },
         {
           id: '2',
           extraclass: 'pt-3',
-          start: 25,
-          end: 76,
+          start: 800,
+          end: 1000,
           title: "Projects",
           description: 'Pellentesque habitant morbi malesuada fames ac turpis egestas.'
         },
         {
           id: '3',
           extraclass: 'pt-3',
-          start: 25,
-          end: 99,
+          start: 1500,
+          end: 2000,
           title: "CLIENTS",
           description: 'Suspendisse congue risus consequat sapien potitor risus tincidunt.'
         },
